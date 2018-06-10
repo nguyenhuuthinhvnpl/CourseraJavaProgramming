@@ -10,13 +10,13 @@ public class WordFrequencies {
 
     public void findUnique() {
         //Reading a file, then stores words in ArrayList(call it resourse)
-        for (String s : resource.words()) {
+        /*for (String s : resource.words()) {
             s = s.toLowerCase();
             int index = myWords.indexOf(s);
             if (index == -1) {
                 myWords.add(s);
             }
-        }
+        }*/
     }
 
     public void tester() {
